@@ -21,7 +21,7 @@ const CardsProfile = ({ data, getUserProducts }) => {
     const deleteItem = async () => {
       const itemId = data.id;
       try {
-        await axios.delete(`http://localhost:3001/publicaciones/${itemId}`);
+        await axios.delete(`https://origamizoo-api.onrender.com/${itemId}`);
         getUserProducts(); // Refresca la lista de productos después de eliminar
       } catch (error) {
         console.log(error);

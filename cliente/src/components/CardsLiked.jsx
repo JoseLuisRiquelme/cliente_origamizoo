@@ -21,7 +21,7 @@ useEffect(() => {
 const setProductoFavorito = async () => {
     const idUser = user[0].id;
     const idProduct = data.id;
-    await axios.post("http://localhost:3001/favoritos", { idUser, idProduct });
+    await axios.post("https://origamizoo-api.onrender.com/favoritos", { idUser, idProduct });
     getFavoritos();
 }
 
@@ -29,7 +29,7 @@ const deleteProductoFavorito = async () => {
     const idUser = user[0].id;
     const idProduct = data.id;
     try {
-        await axios.delete("http://localhost:3001/usuario/" + idUser + "/publicacion/" + idProduct);
+        await axios.delete("https://origamizoo-api.onrender.com/" + idUser + "/publicacion/" + idProduct);
     } catch (error) {
         console.log(error);
     }
