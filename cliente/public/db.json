@@ -1,0 +1,44 @@
+[
+    {
+       "id": 1,
+       "title": "title1",
+       "description": "lorem ipsum",
+       "price": 299999,
+       "url": "/assets/img/bici-trek-marlin-26.png"
+    },
+    {
+        "id": 2,
+        "title": "title2",
+        "description": "lorem ipsum",
+        "price": 299990,
+        "url": "/assets/img/bici-trek-marlin-26-2.jpg"
+     },
+     {
+        "id": 3,
+        "title": "title3",
+        "description": "lorem ipsum",
+        "price": 299990,
+        "url": "/assets/img/bici-trek-marlin-26-3.jpg"
+     },
+     {
+        "id": 4,
+        "title": "title4",
+        "description": "lorem ipsum",
+        "price": 299990,
+        "url": "/assets/img/bici-trek-marlin-26.png"
+     },
+     {
+        "id": 5,
+        "title": "title5",
+        "description": "lorem ipsum",
+        "price": 299990,
+        "url": "/assets/img/bici-trek-marlin-26-2.jpg"
+     },
+     {
+        "id": 6,
+        "title": "title6",
+        "description": "lorem ipsum",
+        "price": 299990,
+        "url": "/assets/img/bici-trek-marlin-26-3.jpg"
+     }
+]

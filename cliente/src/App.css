@@ -1,0 +1,16 @@
+html {
+    box-sizing: border-box;
+    background-color: rgb(204, 110, 110);
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+body, .navbar, .footer {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
